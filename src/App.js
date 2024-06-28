@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <Navbar title="Typing Master" about="About" mode={mode} />
+      <Navbar title="SiBot" about="About" mode={mode} />
     
 
       {/* <div className="container">
