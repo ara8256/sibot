@@ -1,0 +1,12 @@
+.nav-link-custom {
+    color: inherit; /* Use the inherited color by default */
+    transition: color 0.3s; /* Smooth transition */
+  }
+
+  .nav-link-custom:hover {
+    color: #28a745; /* Green color on hover */
+  }
+
+  .nav-font{
+    font-family: "Playwrite ES Deco", cursive;
+  }

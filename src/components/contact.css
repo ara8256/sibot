@@ -1,0 +1,41 @@
+.footer {
+    padding: 40px 0;
+  }
+  
+  .footer .subscribe-section {
+    margin-top: 40px;
+    position: relative;
+    
+  }
+  
+  .footer .subscribe-container {
+    background-color: #333; /* Adjust background color as needed */
+    border-radius: 50% 50%  0 0;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+
+  
+  .footer .form-control {
+    width: 300px;
+    background-color: black ;
+
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+  .footer h4 {
+    margin-bottom: 20px;
+  }
+  
+  .footer .form-control::placeholder {
+    color: white;
+    opacity: 1; /* Ensures the color is solid */
+  }
