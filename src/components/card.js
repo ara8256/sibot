@@ -15,7 +15,7 @@ const CardComponent = ({ title, description, imageUrl, websiteUrl, index }) => {
         <div className="card-body d-flex flex-column">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <a href={websiteUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-auto">
+          <a href={websiteUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark mt-auto">
             Visit Website
           </a>
         </div>
