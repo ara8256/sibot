@@ -8,6 +8,8 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TextForm from './components/TextForm';
 import DarkMode from './components/DarkMode';
+import Team from './components/members';
+import TeamDetail from './components/members';
 
 function App() {
   const [mode, setMode] = useState("dark")
@@ -33,9 +35,10 @@ function App() {
       </div>
       <DarkMode mode={mode} switchMode={switchMode}/>  */}
       <Hero />
-
       <Projects />
       <Goals />
+
+      <TeamDetail />
       <Contact />
 
     </>

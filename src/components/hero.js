@@ -5,7 +5,7 @@ import video from './video.mp4'
 
 const Hero = () =>{
     return(
-        <div className="hero-section d-flex align-items-center justify-content-center hero ">
+        <div className="hero-section d-flex align-items-center justify-content-center hero " id = "">
         <video autoPlay loop muted className="background-video">
         <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
