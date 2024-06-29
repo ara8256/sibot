@@ -27,7 +27,7 @@ const Contact = () => {
               <h5>Subscribe</h5>
               <form className="form-inline justify-content-center">
                 <div className="form-group mb-2 d-flex justify-content-center">
-                  <input type="email" className="form-control text-white" placeholder="Your Email *" required />
+                  <input type="email" className="form-control text-white mx-auto" placeholder="Your Email *" required />
                 </div>
                 <button type="submit" className="btn btn-primary mb-2">Join</button>
               </form>
