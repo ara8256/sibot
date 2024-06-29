@@ -13,20 +13,20 @@ const Projects = () => {
           title:"Nust Helpbot",
          description:"A Compelrte guide for students",
          imageUrl:image,
-         websiteUrl:"https://images.unsplash.com/photo-1518791841217-8f162f" 
+         websiteUrl:"https://nust-help-bot.vercel.app/" 
         },
 
         {
           title:"Pakinstan Consttution Guide",
          description:"Instant reference to the constitution",
          imageUrl:image1,
-         websiteUrl:"https://images.unsplash.com/photo-1518791841217-8f162f" },
+         websiteUrl:"https://pakistan-constitution.vercel.app/" },
          
         {
           title: 'Ask Quran',
           description: 'Logical Commands of the Holy Quran.',
           imageUrl: image2,
-          websiteUrl: 'https://example.com'
+          websiteUrl: 'https://holy-quran-bot.vercel.app/'
         },
 
 
@@ -40,7 +40,7 @@ const Projects = () => {
           title: 'Tafheem ul Quran',
           description: 'Easy explanation of Quran',
           imageUrl: image4,
-          websiteUrl: 'https://example.com'
+          websiteUrl: 'https://tafhim-al-qur-an.vercel.app/'
         },
         {
           title: 'LLm Fine Tune',
