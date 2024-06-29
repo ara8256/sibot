@@ -2,10 +2,12 @@
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navlink.css';
+import logo from "./pictures/logo.png"
 
 function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <img src = {logo} style={{height:"5vh",width : "8vh"  ,paddingLeft : "1vh"}}/>
       <a className="navbar-brand nav-font fw-bold" href="#">SiBot</a>
       <button
         className="navbar-toggler"

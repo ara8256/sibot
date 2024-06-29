@@ -29,11 +29,14 @@ const Contact = () => {
                 <div className="form-group mb-2 d-flex justify-content-center">
                   <input type="email" className="form-control text-white mx-auto" placeholder="Your Email *" required />
                 </div>
-                <button type="submit" className="btn btn-primary mb-2">Join</button>
+                <button type="submit" className="btn btn-light mb-2 mt-2" >Join</button>
               </form>
               <p>Thank You for Subscribing!</p>
             </div>
           </div>
+        </div>
+        <div className="mt-3 text-secondary">
+        <small>All rights reserved ©</small>
         </div>
       </div>
  
